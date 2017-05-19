@@ -36,6 +36,7 @@ public class Generator {
 			
 		}
 		System.out.println(newPass);
+		in.close();
 	}
 
 }
