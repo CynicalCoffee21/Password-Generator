@@ -1,0 +1,12 @@
+import org.gradle.api.tasks.wrapper.Wrapper
+
+plugins {
+    id 'java'
+    id 'application'
+}
+
+sourceSets.main.java.srcDirs = ['src']
+
+application {
+    mainClass = 'Generator' // Replace with your fully qualified main class name
+}
